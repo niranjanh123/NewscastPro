@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">NewscastPro</string>
+    <string name="Login">Login</string>
+    <string name="Username">Username</string>
+    <string name="Email">Email</string>
+    <string name="Password">Password</string>
+    <string name="Confirm">Confirm Password</string>
+    <string name="Register">Register</string>
+    <string name="Register_button">Register</string>
+    <string name="Login_button">Login</string>
+    <string name="forgot_password">ForgotPassword?</string>
+    <string name="welcome">Welcome</string>
+    <string name="create_an_account">Dont have an account?</string>
+    <string name="create">Create Account</string>
+    <string name="copy_right" translatable="false">Copyrights ©</string>
+</resources>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#522d5b</color>
+    <color name="colorPrimaryLight">#ccafaf</color>
+    <color name="colorAccent">#e58a8a</color>
+    <color name="colornew">#d8345f</color>
+    <color name="colorgrey">#696464</color>
+    <color name="color1">#f5b971</color>
+    <color name="color2">#ffd1bd</color>
+    <color name="fading_circle">#FFF</color>
+</resources>

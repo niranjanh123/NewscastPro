@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "684398017272",
+    "firebase_url": "https://newscastpro-26e40.firebaseio.com",
+    "project_id": "newscastpro-26e40",
+    "storage_bucket": "newscastpro-26e40.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:684398017272:android:d7a9fa606bc4c3dc99990d",
+        "android_client_info": {
+          "package_name": "com.example.newscastpro"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "684398017272-fubcr557fidm4edikqr2jj59mcutlc5l.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.newscastpro",
+            "certificate_hash": "5126bbd46cf21e2052d3561650f6e0d3aa9c2c59"
+          }
+        },
+        {
+          "client_id": "684398017272-tebf7e5hfvoablsmehfq3493j2bkhsji.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAFbEA8MNzjtlqmkwI1EkTMw_RCbzzN1vA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "684398017272-tebf7e5hfvoablsmehfq3493j2bkhsji.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/color2"
+    tools:context=".Register">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="172dp"
+            android:background="@drawable/login_background">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/Register"
+                android:textSize="25dp"
+                android:layout_gravity="center_vertical"
+                android:padding="15dp"
+                android:textColor="#000"
+                android:fontFamily="@font/roboto_slab_bold"
+                android:gravity="center"/>
+
+        </FrameLayout>
+
+        <ImageView
+            android:layout_width="75dp"
+            android:layout_height="75dp"
+            android:src="@drawable/login"
+            android:layout_gravity="center"
+            android:layout_marginTop="-40dp"/>
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/Username"
+            android:textSize="25dp"
+            android:textColor="#000"
+            android:paddingLeft="15dp"
+            android:paddingRight="15dp"
+            android:layout_marginTop="15dp"
+            android:fontFamily="@font/lato"/>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#000"
+            android:paddingLeft="15dp"
+            android:paddingRight="15dp"
+            android:inputType="text"
+            android:id="@+id/reg_Username"
+            android:backgroundTint="@color/colorgrey"
+            android:drawableRight="@drawable/ic_person"
+            android:textSize="20dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/Email"
+            android:paddingLeft="15dp"
+            android:paddingRight="15dp"
+            android:layout_marginTop="10dp"
+            android:textSize="25dp"
+            android:textColor="#000"
+            android:fontFamily="@font/lato"/>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#000"
+            android:paddingLeft="15dp"
+            android:inputType="textEmailAddress"
+            android:paddingRight="15dp"
+            android:backgroundTint="@color/colorgrey"
+            android:id="@+id/reg_Email"
+            android:drawableRight="@drawable/ic_mail"
+            android:textSize="20dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/Password"
+            android:paddingLeft="15dp"
+            android:paddingRight="15dp"
+            android:layout_marginTop="10dp"
+            android:textSize="25dp"
+            android:textColor="#000"
+            android:fontFamily="@font/lato"/>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#000"
+            android:paddingLeft="15dp"
+            android:paddingRight="15dp"
+            android:inputType="textPassword"
+            android:backgroundTint="@color/colorgrey"
+            android:id="@+id/reg_Password"
+            android:drawableRight="@drawable/ic_lock"
+            android:textSize="20dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/Confirm"
+            android:paddingLeft="15dp"
+            android:paddingRight="15dp"
+            android:textSize="25dp"
+            android:layout_marginTop="10dp"
+            android:textColor="#000"
+            android:fontFamily="@font/lato"/>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#000"
+            android:paddingLeft="15dp"
+            android:inputType="textPassword"
+            android:paddingRight="15dp"
+            android:backgroundTint="@color/colorgrey"
+            android:drawableRight="@drawable/ic_lock"
+            android:id="@+id/reg_confirm_password"
+            android:textSize="20dp"/>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/Register_button"
+            android:layout_gravity="center"
+            android:padding="15dp"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/button"
+            android:fontFamily="@font/fira_sans"
+            android:id="@+id/reg_button"/>
+
+    </LinearLayout>
+</androidx.core.widget.NestedScrollView>

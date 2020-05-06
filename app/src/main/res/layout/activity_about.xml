@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".about"
+    android:orientation="vertical"
+    android:background="@color/colorAccent"
+    android:padding="15dp">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/welcome"
+        android:textSize="25dp"
+        android:id="@+id/text1"
+        android:textColor="#000"
+        android:fontFamily="@font/roboto_slab_bold"
+        android:gravity="center"/>
+
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:src="@drawable/newspaper"
+        android:id="@+id/image_news"
+        android:layout_below="@id/text1"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="25dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Developer:Niranjan H"
+        android:textColor="#000"
+        android:id="@+id/text2"
+        android:textSize="20dp"
+        android:layout_below="@id/image_news"
+        android:fontFamily="@font/fira_mono"
+        android:layout_marginTop="30dp"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/text3"
+        android:layout_below="@id/text2"
+        android:text="Email:niranjanhari123@gmail.com"
+        android:textColor="#000"
+        android:textSize="20dp"
+        android:fontFamily="@font/fira_mono"
+        android:layout_marginTop="30dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/copy_right"
+        android:textColor="#000"
+        android:textSize="20dp"
+        android:layout_alignParentBottom="true"
+        android:gravity="center"
+        android:fontFamily="@font/fira_mono"
+        android:layout_marginTop="30dp"/>
+</RelativeLayout>

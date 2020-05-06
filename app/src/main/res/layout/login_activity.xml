@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/color2"
+    tools:context=".Login_activity">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="172dp"
+            android:background="@drawable/login_background">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/Login"
+                android:textSize="25dp"
+                android:layout_gravity="center_vertical"
+                android:padding="15dp"
+                android:textColor="#000"
+                android:fontFamily="@font/roboto_slab_bold"
+                android:gravity="center"/>
+
+        </FrameLayout>
+
+        <ImageView
+            android:layout_width="75dp"
+            android:layout_height="75dp"
+            android:src="@drawable/login"
+            android:layout_gravity="center"
+            android:layout_marginTop="-40dp"/>
+
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/Email"
+            android:layout_marginTop="10dp"
+            android:textSize="25dp"
+            android:padding="15dp"
+            android:textColor="#000"
+            android:fontFamily="@font/lato"/>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#000"
+            android:padding="15dp"
+            android:drawableRight="@drawable/ic_mail"
+            android:backgroundTint="@color/colorgrey"
+            android:inputType="textEmailAddress"
+            android:id="@+id/login_Email"
+            android:textSize="20dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/Password"
+            android:layout_marginTop="10dp"
+            android:padding="15dp"
+            android:textSize="25dp"
+            android:textColor="#000"
+            android:fontFamily="@font/lato"/>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#000"
+            android:inputType="textPassword"
+            android:padding="15dp"
+            android:backgroundTint="@color/colorgrey"
+            android:drawableRight="@drawable/ic_lock"
+            android:id="@+id/login_Password"
+            android:textSize="20dp"/>
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/forgot_password"
+                android:layout_alignParentRight="true"
+                android:padding="15dp"
+                android:id="@+id/forgot_password"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="10dp"
+                android:textSize="15dp"
+                android:textColor="#000"
+                android:fontFamily="@font/lato"
+                tools:ignore="InvalidId" />
+
+
+        </RelativeLayout>
+
+
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/Login_button"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"
+            android:padding="15dp"
+            android:background="@drawable/button"
+            android:fontFamily="@font/fira_sans"
+            android:id="@+id/login_button"/>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="15dp"
+            android:gravity="center_horizontal"
+            android:orientation="horizontal"
+            android:padding="6dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/lato"
+                android:text="@string/create_an_account"
+                android:textColor="#000"
+                android:layout_marginLeft="10dp"
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/create_account_text_view"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:fontFamily="@font/lato"
+                android:text="@string/create"
+                android:textColor="#000"
+                android:textSize="15sp"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+    </LinearLayout>
+</androidx.core.widget.NestedScrollView>
